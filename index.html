@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <div class="flex">
+      <h3>Generate a Number between 0 and</h3>
+      <form id="rangeNumberForm">
+        <input class="rangeNumberInput" type="number" min="0" />
+      </form>
+    </div>
+    <div class="flex">
+      Guess the number:
+      <form id="winNumberForm">
+        <input
+          class="winNumberInput"
+          type="number"
+          style="width: 180px;"
+          min="0"
+        />
+        <button>play!</button>
+      </form>
+    </div>
+    <div class="chose"></div>
+    <h4 class="result"></h4>
+    <script src="src/index.js"></script>
+  </body>
+</html>

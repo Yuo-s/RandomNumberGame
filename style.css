@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#rangeNumberForm {
+  margin-left: 10px;
+}
+#winNumberForm {
+  margin-left: 10px;
+}
